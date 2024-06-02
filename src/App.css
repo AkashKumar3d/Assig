@@ -31,6 +31,156 @@
   color: #61dafb;
 }
 
+.cus-table th{
+  font-weight: 600;
+}
+
+.cus-table td, .cus-table th{
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.css-1ocb39o-MuiButtonBase-root-MuiIconButton-root{
+  padding: 0 !important;
+}
+
+.cus-comment-header{
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  /* border-bottom: 2px solid black; */
+  /* min-width: 9rem; */
+  padding-bottom: 0.5rem;
+}
+
+.maincus-comment-header{
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  margin-bottom: 1rem;
+}
+
+.cus-comment-icon{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.cus-comment-header p{
+  background-color: rgb(73, 73, 73);
+  color: white;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  padding:0 ;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  
+}
+/* .cus-table-row{
+  display: flex !important;
+  width: 100%;
+} */
+
+.cus-table h4{
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: 100;
+}
+
+.cus-table-td2 {
+  display: flex !important;
+  flex-direction: column;
+  gap: 1.30rem;
+  border-bottom: 0.5px solid rgb(228, 227, 227);
+  border-right: 0.5px solid rgb(228, 227, 227);
+  border-left: 0.5px solid rgb(228, 227, 227);
+
+  /* border-bottom: none; */
+}
+
+.cus-table td:first-child,.cus-table th:first-child{
+  border-left: none;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  /* padding-bottom: 30px; */
+
+}
+
+.cus-table td:last-child,.cus-table th:last-child{
+  border-right:none;
+}
+
+.cus-table-td1{
+  display: flex !important;
+  flex-direction: column !important;
+  /* border-bottom: none !important; */
+  border-right: none !important;
+/* height: 100%; */
+/* padding-bottom:50px ; */
+}
+
+.cus-table-td1:first-child{
+  border-bottom: none;
+}
+.cus-table-td b,.cus-table-td1 b{
+  /* background-color: red; */
+  /* height: 20px !important; */
+  /* margin-bottom: 20px !important; */
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  border: none;
+  /* padding-bottom:15px !important; */
+}
+
+.cus-sche-head{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+
+.cus-stat-box{
+  /* background-color: red; */
+  display: flex;
+  height: 80px;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cus-stat-box div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cus-stat-box div span{
+  color: gray;
+}
+
+.cus-stat-box div p{
+  padding: 0;
+margin: 0;
+font-size: 20px;
+font-weight: bold;
+}
+
+.cus-stat-subBox1{
+  background-color: rgb(225, 225, 251);
+  color: rgb(98, 93, 159);
+  font-weight: bold;
+  min-width: 20%;
+  max-width: 20%;
+  /* width: 100%; */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
